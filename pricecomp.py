@@ -25,11 +25,11 @@ def mail():
 	s=smtplib.SMTP('smtp.gmail.com', 587)
 #make network secure
 	s.starttls()
-	ml='prabhu280699@gmail.com'
-	pw='1PE17CS032'
+	ml='****@gmail.com'
+	pw='********'
 
 	s.login(ml,pw)
-	mt='prabhu280699@gmail.com'
+	mt='****@gmail.com'
 	message='hurry up the price is low now.Grab the deal.'
 
 	s.sendmail(ml,mt,message)
